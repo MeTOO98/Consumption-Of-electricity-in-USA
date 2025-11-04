@@ -64,4 +64,4 @@ The dimensional structure enables powerful, multi-faceted analytical queries, su
 
 * **Consumption Efficiency:** Calculating the correlation coefficient between **Consumption** and **GDP** and how we use electricity efficiently.  
 * **Analyzing Economic Shocks:** The pipeline allows for time-series analysis to visualize the effect of major economic downturns (like the **2008 Financial Crisis** and **COVID-19 pandemic**) on both **state GDP** and **energy consumption**, showing differential state recovery patterns.    
-* **Energy Mix Analysis:** Visualizing how the mix of electricity sources (e.g., Renewable, Fossil Fuels) in a state impacts overall sales volume.  
+* **Energy Mix Analysis:** Visualizing the mix of electricity sources (e.g., Renewable, Fossil Fuels) and the percentage of each source of them.  
