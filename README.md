@@ -53,6 +53,7 @@ The following technologies and tools are utilized across the various stages of t
 ## **Data Model**
 
 The core data is modeled using a **Galaxy Schema** (or multi-fact schema), featuring two main Fact tables (Fact\_Cons, fact\_types and GDP\_POP\_Fact) connected to shared Dimension tables like Dim\_States and Dim\_Date.
+
 <img width="1247" height="737" alt="Model" src="https://github.com/user-attachments/assets/dd060dce-a853-4294-a638-d73a006deba4" />
 
 
