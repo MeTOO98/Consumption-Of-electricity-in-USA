@@ -10,7 +10,7 @@ The core objective is to clean, standardize, and integrate these disparate sourc
 
 The project follows a modern Extract, Load, and Transform (ELT) architecture, **using Snowflake (SQL) for high-performance transformations, combined with Python for initial data pre-processing.**
 
-1. **Extract & Load (Jupyter/Python):** Raw data is pulled from external APIs and local files, then loaded directly into the Staging Layer.  
+1. **Extract & Load (Jupyter/Python):** Raw data is pulled from external API and local files, then loaded directly into the Staging Layer.  
 2. **Staging Layer (SQL):** Raw data tables are created for initial storage, mirroring the source structure.  
 3. **Transformation (Python & SQL):** Python handles initial cleaning and file consolidation, while Snowflake SQL executes data quality checks, standardization, deduplication, and consolidation of disparate staging tables.  
 4. **Core Layer (SQL):** The final Dimensional Model is defined and populated, ready for analytics.  
