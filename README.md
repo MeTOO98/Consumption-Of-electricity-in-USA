@@ -14,7 +14,7 @@ The project follows a modern Extract, Load, and Transform (ELT) architecture, **
 2. **Staging Layer (SQL):** Raw data tables are created for initial storage, mirroring the source structure.  
 3. **Transformation (Python & SQL):** Python handles initial cleaning and file consolidation, while Snowflake SQL executes data quality checks, standardization, deduplication, and consolidation of disparate staging tables.  
 4. **Core Layer (SQL):** The final Dimensional Model is defined and populated, ready for analytics.  
-5. **Reporting (Power BI):** The BI tool connects to the Core Layer Fact and Dimension tables to generate insights.
+5. **Reporting or Analysis (Power BI):** The BI tool connects to the Core Layer Fact and Dimension tables to generate insights.
 
 <img width="6718" height="1743" alt="architecture" src="https://github.com/user-attachments/assets/c8581ea1-f261-4a0e-a50b-241e8d13a382" />
 
