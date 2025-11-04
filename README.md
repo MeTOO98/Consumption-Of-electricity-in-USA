@@ -1,4 +1,4 @@
-# **US State Energy & Economic Performance Data Pipeline**
+# **US and States Energy & Economic Performance Data Pipeline**
 
 ## **Project Overview**
 
