@@ -46,7 +46,7 @@ The following technologies and tools are utilized across the various stages of t
 | :---- | :---- | :---- | :---- |
 | Extraction and ingestion/Extraction or Ingestion.ipynb | Jupyter Notebook (Python) | **E L** | Handles API connection (e.g., EIA), data fetching, and bulk loading of raw data into the staging tables. Includes initial date formatting. |
 | Staging/Staging-layer.sql | SQL Script | **L** | Defines the structure (CREATE TABLE statements) for all raw staging tables (cons\_states, GPD\_states, pop\_5\_10, etc.) before transformation. |
-| Transfermotion/Transformation\_.sql | SQL Script | **T (Cleaning)** | Executes data quality routines: data type correction, state/sector name standardization, filtering out incomplete records (e.g., 'other' sector sales), and consolidating population data. |
+| Transformotion/Transformation\_.sql | SQL Script | **T (Cleaning)** | Executes data quality routines: data type correction, state/sector name standardization, filtering out incomplete records (e.g., 'other' sector sales), and consolidating population data. |
 | Core/Core\_Layer\_.sql | SQL Script | **T (Modeling)** | Defines the final dimensional model (Dim\_States, Dim\_Date, GDP\_POP\_Fact, fact\_types). Populates these tables using the cleaned data from staging and transformation steps. |
 | Cons\_Project | **Power BI Dashboard Link** | **Reporting** | The final BI dashboard: [View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjIyNDUyZmMtNjkxZi00OTBkLWFjZmYtMjI0MDBiNjhkNTgxIiwidCI6ImM5NDdhYWExLTUxYzUtNDY3Yi04YWUwLTFhYTY0NzUxNmJjZiJ9) |
 
