@@ -26,7 +26,7 @@ The analysis relies on multiple reliable sources :
 | Metric | Source | Description |
 | :---- | :---- | :---- |
 | **Electricity Data** | Energy Information Administration (EIA) API | Detailed monthly/annual data on electricity sales, consumption, and source types, segmented by **State and US Total**. |
-| **Population** | External Files | **National and state-level** population data across various date ranges (2005-2024, split into multiple staging tables). |
+| **Population** | External Files | **National and state-level** population data across various date ranges (2005-2022, split into multiple staging tables). |
 | **GDP** | External File | **National and state-level** Gross Domestic Product . |
 
 ## **Stack Technology**
