@@ -37,7 +37,7 @@ The following technologies and tools are utilized across the various stages of t
 | :---- | :---- | :---- |
 | **Programming** | Python | Primary language for data ingestion and initial pre-processing/cleaning. |
 | **Libraries** | Pandas, Requests | Data manipulation/pre-processing (Pandas) and connecting to external APIs (Requests). |
-| **Database / DWH** | Snowflake (SQL) | Cloud data warehouse used for Staging, Core layers, and all core ELT transformations. |
+| **DWH** | Snowflake (SQL) | Cloud data warehouse used for Staging, Core layers, and all core ELT transformations. |
 | **Execution** | Jupyter Notebook | Interactive environment used for running the extraction and loading scripts. |
 | **Business Intelligence** | Power BI | Final data visualization, interactive dashboards, and KPI reporting. |
 
