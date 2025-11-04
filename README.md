@@ -16,6 +16,8 @@ The project follows a modern Extract, Load, and Transform (ELT) architecture, **
 4. **Core Layer (SQL):** The final Dimensional Model is defined and populated, ready for analytics.  
 5. **Reporting (Power BI):** The BI tool connects to the Core Layer Fact and Dimension tables to generate insights.
 
+<img width="6718" height="1743" alt="architecture" src="https://github.com/user-attachments/assets/c8581ea1-f261-4a0e-a50b-241e8d13a382" />
+
 ## **Data Sources**
 
 The analysis relies on multiple reliable sources :
@@ -51,6 +53,8 @@ The following technologies and tools are utilized across the various stages of t
 ## **Data Model**
 
 The core data is modeled using a **Galaxy Schema** (or multi-fact schema), featuring two main Fact tables (Fact\_Cons, fact\_types and GDP\_POP\_Fact) connected to shared Dimension tables like Dim\_States and Dim\_Date.
+![Uploading Model.PNG…]()
+
 
 ## **Examples of Insights**
 
