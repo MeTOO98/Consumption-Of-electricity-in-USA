@@ -16,7 +16,8 @@ The project follows a modern Extract, Load, and Transform (ELT) architecture, **
 4. **Core Layer (SQL):** The final Dimensional Model is defined and populated, ready for analytics.  
 5. **Reporting or Analysis (Power BI):** The BI tool connects to the Core Layer Fact and Dimension tables to generate insights.
 
-<img width="6718" height="1743" alt="architecture" src="https://github.com/user-attachments/assets/c8581ea1-f261-4a0e-a50b-241e8d13a382" />
+![Uploading architecture.png…]()
+
 
 ## **Data Sources**
 
