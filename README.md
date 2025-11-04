@@ -62,7 +62,6 @@ The core data is modeled using a **Galaxy Schema** (or multi-fact schema), featu
 
 The dimensional structure enables powerful, multi-faceted analytical queries, such as:
 
-* **Consumption Efficiency:** Calculating the correlation coefficient between **GDP per Capita** and **Residential Electricity Sales per Capita** for the top 5 most populous states over the last decade.  
-* **Economic Indicators:** Identifying states that demonstrate **decoupling**—where Gross Domestic Product (GDP) increases while industrial and commercial energy consumption either remains flat or decreases—suggesting improved energy efficiency.  
-* **Energy Mix Analysis:** Visualizing how the mix of electricity sources (e.g., Renewable, Nuclear, Fossil Fuels) in a state impacts overall sales volume and whether this shift correlates with state-level population growth.  
-* **Sector-Specific Trends:** Analyzing the percentage change in Commercial Sector electricity sales in high-growth states (e.g., Texas, Florida) compared to the National Average over the last five years to forecast future utility demand.
+* **Consumption Efficiency:** Calculating the correlation coefficient between **Consumption** and **GDP** and how we use electricity efficiently.  
+* **Analyzing Economic Shocks:** The pipeline allows for time-series analysis to visualize the effect of major economic downturns (like the **2008 Financial Crisis** and **COVID-19 pandemic**) on both **state GDP** and **energy consumption**, showing differential state recovery patterns.    
+* **Energy Mix Analysis:** Visualizing how the mix of electricity sources (e.g., Renewable, Fossil Fuels) in a state impacts overall sales volume.  
