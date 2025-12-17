@@ -2,7 +2,7 @@
 
 ## **Project Overview**
 
-This Data Engineering project delivers an end-to-end **Extract, Load, Transform (ELT) pipeline** for integrating multiple US data sources. The pipeline ingests electricity consumption data and Types of Source data from the **EIA API** and consolidates external files for **Population** and **Gross Domestic Product (GDP)**.
+This Data Engineering project delivers an end-to-end **Extract, Load, Transform (ETL) pipeline** for integrating multiple US data sources. The pipeline ingests electricity consumption data and Types of Source data from the **EIA API** and consolidates external files for **Population** and **Gross Domestic Product (GDP)**.
 
 The core objective is to clean, standardize, and integrate these disparate sources into a high-performance **Galaxy Schema Dimensional Model**. This robust structure supports a dynamic Power BI dashboard, enabling analysts to **visualize energy consumption trends alongside economic indicators**, with full national and state-level detail.
 
