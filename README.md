@@ -6,7 +6,7 @@ This Data Engineering project delivers an end-to-end **Extract, Load, Transform 
 
 The core objective is to clean, standardize, and integrate these disparate sources into a high-performance **Galaxy Schema Dimensional Model**. This robust structure supports a dynamic Power BI dashboard, enabling analysts to **visualize energy consumption trends alongside economic indicators**, with full national and state-level detail.
 
-## **Data Architecture: ELT Pipeline**
+## **Data Architecture: ETL Pipeline**
 
 The project follows a modern Extract, Load, and Transform (ELT) architecture, **using Snowflake (SQL) for high-performance transformations, combined with Python for initial data pre-processing.**
 
