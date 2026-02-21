@@ -8,7 +8,7 @@ The core objective is to clean, standardize, and integrate these disparate sourc
 
 ## **Data Architecture: ETL Pipeline**
 
-The project follows a modern Extract, Load, and Transform (ELT) architecture, **using Snowflake (SQL) for high-performance transformations, combined with Python for initial data pre-processing.**
+The project follows a modern Extract, Load, and Transform (ETL) architecture, **using Snowflake (SQL) for high-performance transformations, combined with Python for initial data pre-processing.**
 
 1. **Extract & Load (Jupyter/Python):** Raw data is pulled from external API and local files, then loaded directly into the Staging Layer.  
 2. **Staging Layer (SQL):** Raw data tables are created for initial storage, mirroring the source structure.  
